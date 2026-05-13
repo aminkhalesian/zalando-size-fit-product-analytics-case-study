@@ -1,2 +1,32 @@
-# zalando-size-fit-product-analytics-case-study
-A hypothetical Product Analytics case study exploring how a Fit Quiz could reduce size-related returns for first-time Zalando shoppers.
+# Product Analytics Case Study: Zalando Size & Fit Experience
+
+This repository supports a hypothetical Product Analytics case study about improving Zalando’s Size & Fit experience for first-time shoppers.
+
+The case study explores how a lightweight Fit Quiz on product detail pages could help reduce size-related returns while keeping the shopping journey simple and conversion-friendly.
+
+## Project Context
+
+Zalando has publicly highlighted AI-powered personal matchmaking and Size & Fit improvements as part of its strategy. This project uses that public context to build a portfolio case study around a realistic product analytics problem: helping first-time shoppers choose the right size when there is limited purchase or return history.
+
+## Product Question
+
+Can a lightweight Fit Quiz reduce size-related returns for first-time shoppers without lowering conversion?
+
+## What This Repository Contains
+
+- `sql/` — SQL queries for core product analytics metrics
+- `schema/` — DBML schema for the hypothetical data model
+- `data/` — notes about data assumptions and privacy
+- `docs/` — short written summary of the case study
+
+## Key Metrics
+
+- Size-related return rate
+- Average order value
+- Recommendation acceptance rate
+- Net GMV per user
+- Conversion and add-to-bag guardrails
+
+## Disclaimer
+
+This is a hypothetical portfolio project. It does not use real Zalando customer data, internal systems, or private business information. All data models, SQL queries, and business assumptions are created for learning and portfolio demonstration purposes.
