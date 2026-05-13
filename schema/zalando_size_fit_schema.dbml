@@ -1,0 +1,46 @@
+// zalando_size_fit_schema.dbml
+// Hypothetical relational schema for the Zalando Size & Fit Product Analytics case study
+
+Table customers {
+  customer_id integer [primary key]
+  test_group text // Control or Treatment
+  signup_date timestamp
+  country text
+  first_purchase_date timestamp
+  has_saved_size_profile boolean
+}
+
+Table orders {
+  order_id integer [primary key]
+  customer_id integer [ref: > customers.customer_id]
+  order_date timestamp
+  gross_order_value float
+  net_order_value float
+  order_status text
+}
+
+Table order_items {
+  order_item_id integer [primary key]
+  order_id integer [ref: > orders.order_id]
+  customer_id integer [ref: > customers.customer_id]
+  product_id text
+  category text
+  brand text
+  size_selected text
+  item_price float
+  is_returned boolean
+  return_reason text
+}
+
+Table fit_quiz_events {
+  event_id integer [primary key]
+  customer_id integer [ref: > customers.customer_id]
+  product_id text
+  event_date timestamp
+  quiz_shown boolean
+  quiz_started boolean
+  quiz_completed boolean
+  recommended_size text
+  selected_size_after_quiz text
+  followed_recommendation boolean
+}
