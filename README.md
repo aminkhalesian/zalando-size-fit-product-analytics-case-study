@@ -27,6 +27,10 @@ Can a lightweight Fit Quiz reduce size-related returns for first-time shoppers w
 - Net GMV per user
 - Conversion and add-to-bag guardrails
 
+## Full Case Study
+
+Read the full case study here: [Product Analytics Case Study: Improving Zalando’s Size & Fit Experience for First-Time Shoppers](https://canary-name-a5e.notion.site/Product-Analytics-Case-Study-Improving-Zalando-s-Size-Fit-Experience-for-First-Time-Shoppers-35f5adec5ffb8062821de9d1c149e949?source=copy_link)
+
 ## Disclaimer
 
 This is a hypothetical portfolio project. It does not use real Zalando customer data, internal systems, or private business information. All data models, SQL queries, and business assumptions are created for learning and portfolio demonstration purposes.
