@@ -14,10 +14,13 @@ Can a lightweight Fit Quiz reduce size-related returns for first-time shoppers w
 
 ## What This Repository Contains
 
-- `sql/` — SQL queries for core product analytics metrics
-- `schema/` — DBML schema for the hypothetical data model
-- `data/` — notes about data assumptions and privacy
-- `docs/` — short written summary of the case study
+- `sql/` — SQL queries for core product analytics metrics:
+  - [Size-Related Return Rate](sql/01_size_related_return_rate.sql)
+  - [Average Order Value](sql/02_average_order_value.sql)
+  - [Recommendation Acceptance](sql/03_recommendation_acceptance.sql)
+- `schema/` — [DBML schema](schema/zalando_size_fit_schema.dbml) for the hypothetical data model
+- `data/` — [sample data note](data/sample_data_note.md) explaining data assumptions and privacy
+- `docs/` — [case study summary](docs/case_study_summary.md)
 
 ## Key Metrics
 
