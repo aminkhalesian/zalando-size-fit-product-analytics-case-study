@@ -32,7 +32,7 @@ Can a lightweight Fit Quiz reduce size-related returns for first-time shoppers w
 
 ## Full Case Study
 
-Read the full case study here: [Product Analytics Case Study: Improving Zalando’s Size & Fit Experience for First-Time Shoppers](https://canary-name-a5e.notion.site/Product-Analytics-Case-Study-Improving-Zalando-s-Size-Fit-Experience-for-First-Time-Shoppers-35f5adec5ffb8062821de9d1c149e949?source=copy_link)
+Read the full case study here: [Product Analytics Case Study: Improving Zalando’s Size & Fit Experience for First-Time Shoppers](https://aminkhalesianprojects.notion.site/Product-Analytics-Case-Study-Improving-Zalando-s-Size-Fit-Experience-for-First-Time-Shoppers-35f5adec5ffb8062821de9d1c149e949?pvs=74)
 
 ## Disclaimer
 
